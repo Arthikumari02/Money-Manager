@@ -1,0 +1,123 @@
+.bg-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 30px;
+}
+
+.money-manger-header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 60vw;
+  height: 25vh;
+  color: #475569;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
+
+.money-manger-title {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #0b69ff;
+}
+
+.transactions-details-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-transaction-container {
+  border: 1px solid #d7dfe9;
+  border-radius: 8px;
+  width: 23vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 15px;
+  color: #475569;
+  font-family: Roboto;
+}
+
+.add-transaction-form-container {
+  width: 23vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.add-transaction-title {
+  color: #7e858e;
+}
+
+.input-container {
+  border: 1px solid #d7dfe9;
+  border-radius: 3px;
+  width: 90%;
+  height: 50px;
+  color: #7e858e;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  width: 90px;
+}
+
+.history-container {
+  border: 1px solid #d7dfe9;
+  border-radius: 8px;
+  width: 30vw;
+  min-height: 55vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 15px;
+  color: #475569;
+  font-family: Roboto;
+}
+
+.history-details-container {
+  width: 90%;
+  height: auto;
+  border: 1px solid #d7dfe9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.history-details-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  padding-left: 40px;
+  color: #334155;
+}

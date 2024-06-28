@@ -1,0 +1,68 @@
+.money-details-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.your-balance-container {
+  flex-shrink: 1;
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.your-income-container {
+  flex-shrink: 1;
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.your-expense-container {
+  flex-shrink: 1;
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.money-details-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.money-details-title {
+  font-family: Roboto;
+  font-size: 8px;
+  color: #cbd5e1;
+}
+
+.money-details-value {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #1e293b;
+}
